@@ -16,3 +16,6 @@ Local experiments with Kubernetes
 5. Apply manifests, e.g.  
    `cd manifests`  
    `kubectl apply -f network-multitool.yaml`
+6. Update `c:\Windows\System32\Drivers\etc\hosts` add line:  
+   `127.0.0.1 k8s-playground.local`
+
