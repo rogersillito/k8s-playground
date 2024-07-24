@@ -89,6 +89,7 @@ metadata:
   name: network-multitool-pvc
   namespace: k8s-test
 spec:
+  volumeName: network-multitool-pv
   accessModes:
     - ReadWriteOnce
   resources:
